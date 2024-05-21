@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 5%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form select {
+    padding: 5% 2%;
+    font-size: 24pt;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.reg {
+    margin: 0 0 5% 0;
+}
+
+input {outline:none;}
+
+input:focus {
+    border: 2px solid #2ec500;
+}
+
+
+form input[type="submit"] {
+    cursor: pointer;
+}
+
+.msg {
+    padding: 10px;
+    border-radius: 5px;
+    border:2px solid #c50000;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.msg-1 {
+    padding: 10px;
+    border-radius: 5px;
+    border:2px solid #2ec500;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+/*mu.php*/
+.container-mu {
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+}
+
+.container-mu form {
+    width: 100%;
+}
+
+.container-mu form label {
+    font-size: 2vw;
+}
+
+/*md2*/
+.container-1 {
+    padding: 5% 5% 0 150px;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.container-md2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cart {
+    box-shadow: 0px 0px 40px 19px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
+
+.cart-cat, .cart-theme, .cart-text {
+    margin-bottom: 2vh;
+}
+
+.cart h3 {
+    font-family: Montserrat;
+}
+
+.cart p {
+    font-family: Ubuntu;
+    font-size: 1.5vw;
+}
+
+.cart > p {
+    font-weight: bold;
+    font-size: 2vw;
+    position: absolute;
+    top: 30px;
+}
+
+#card-link-click {
+    width: 100%;
+    background: #6e6e6e;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 10%;
+    color: white;
+    text-decoration: none;
+}
